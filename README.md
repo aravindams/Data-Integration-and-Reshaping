@@ -60,7 +60,13 @@ secondary secondary school. Default value: -1
 
 24. secondary_school_ranking		The ranking of the closest secondary school to the property as scraped from
 https://sites.google.com/a/monash.edu/secondary-school-ranking/   If the school is not listed, the value of this field should be set to “not ranked”. Default value: -1
-					
+	
+	
+Task 2: data reshaping
+
+
+In this task, you need to study the effect of different normalization/transformation methods (i.e. standardization, min-max normalization, log, power, and root transformation) on Rooms, crime_C_average, travel_min_to_CBD, and property_age attributes. You need to observe and explain their effect assuming that we want to build a linear model on price using these attributes as predictors of the linear model and recommend which one(s) do you think would work better on this data. When building the linear model, the same normalization/transformation method can be applied to each of these attributes.
+
 
 	
 
